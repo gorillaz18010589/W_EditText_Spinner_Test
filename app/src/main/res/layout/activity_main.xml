@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <!-- 设置spinner控件 -->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    <!-- 设定输入框，输入内容 -->
+    <EditText
+        android:id="@+id/et01"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <!-- 设定按钮，确定输入框输入内容完毕 -->
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sure" />
+
+</LinearLayout>
+
